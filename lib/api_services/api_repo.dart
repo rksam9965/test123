@@ -12,6 +12,27 @@ Future<GetNewDataLister> getCardDatum() async {
   return GetNewDataLister.fromJson(response);
 }
 
+// Future<CreateProjects> createProject(var body) async {
+//   final response = await _provider.post(_apiconstants.createProjectApi, body);
+//   return CreateProjects.fromJson(response);
+// }
+
+
+// put the data
+
+// Future<UpdateResponse> updateProjects(String?id,var body) async {
+//   final response = await _provider.update(_apiconstants.createProjectApi+"/"+id!,body);
+//   return UpdateResponse.fromJson(response);
+// }
+
+// delete api
+
+// Future<DeleteResponse> delete(String? id) async {
+//   final response = await _provider.delete(_apiconstants.createProjectApi+"/"+id!);
+//   return DeleteResponse.fromJson(response);
+// }
+
+
 
 
 
